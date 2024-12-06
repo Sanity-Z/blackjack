@@ -44,7 +44,7 @@ export const store = createStore({
   setPrevBet: action((state, payload) => {
     state.prevBet = payload;
   }),
-  bankTotal: 1000,
+  bankTotal: 100000000000000,
   setBankTotal: action((state, payload) => {
     state.bankTotal = payload;
   }),
